@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AE376E83A9F348ECAEABB66 /* libPods-ChatWithParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 228DE272D5FD7DE020FEDD6F /* libPods-ChatWithParse.a */; };
 		AD3B63C21BEBFC1C00479436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B63C11BEBFC1C00479436 /* main.m */; };
 		AD3B63C51BEBFC1C00479436 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B63C41BEBFC1C00479436 /* AppDelegate.m */; };
-		AD3B63C81BEBFC1C00479436 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B63C71BEBFC1C00479436 /* ViewController.m */; };
+		AD3B63C81BEBFC1C00479436 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3B63C71BEBFC1C00479436 /* LoginViewController.m */; };
 		AD3B63CB1BEBFC1C00479436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3B63C91BEBFC1C00479436 /* Main.storyboard */; };
 		AD3B63CD1BEBFC1C00479436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3B63CC1BEBFC1C00479436 /* Assets.xcassets */; };
 		AD3B63D01BEBFC1C00479436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3B63CE1BEBFC1C00479436 /* LaunchScreen.storyboard */; };
+		AD7A82CC1BEC17FB004D054F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A82CB1BEC17FB004D054F /* ChatViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AD7A82CF1BEC1E32004D054F /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7A82CE1BEC1E32004D054F /* MessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B7BFB6A960AA361CDE1532 /* Pods-ChatWithParse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWithParse.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatWithParse/Pods-ChatWithParse.release.xcconfig"; sourceTree = "<group>"; };
+		228DE272D5FD7DE020FEDD6F /* libPods-ChatWithParse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatWithParse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3B63BD1BEBFC1C00479436 /* ChatWithParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3B63C11BEBFC1C00479436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD3B63C31BEBFC1C00479436 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD3B63C41BEBFC1C00479436 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD3B63C61BEBFC1C00479436 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD3B63C71BEBFC1C00479436 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD3B63C61BEBFC1C00479436 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AD3B63C71BEBFC1C00479436 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AD3B63CA1BEBFC1C00479436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD3B63CC1BEBFC1C00479436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3B63CF1BEBFC1C00479436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3B63D11BEBFC1C00479436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7A82CA1BEC17FB004D054F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		AD7A82CB1BEC17FB004D054F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		AD7A82CD1BEC1E32004D054F /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		AD7A82CE1BEC1E32004D054F /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		B4FE6579E4E08C06E1AC8D1C /* Pods-ChatWithParse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWithParse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatWithParse/Pods-ChatWithParse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE376E83A9F348ECAEABB66 /* libPods-ChatWithParse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12744CDBED2ADC4B17D46B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4FE6579E4E08C06E1AC8D1C /* Pods-ChatWithParse.debug.xcconfig */,
+				18B7BFB6A960AA361CDE1532 /* Pods-ChatWithParse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E49B012022D2310BC0091A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228DE272D5FD7DE020FEDD6F /* libPods-ChatWithParse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD3B63B41BEBFC1C00479436 = {
 			isa = PBXGroup;
 			children = (
 				AD3B63BF1BEBFC1C00479436 /* ChatWithParse */,
 				AD3B63BE1BEBFC1C00479436 /* Products */,
+				12744CDBED2ADC4B17D46B93 /* Pods */,
+				5E49B012022D2310BC0091A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +90,13 @@
 			children = (
 				AD3B63C31BEBFC1C00479436 /* AppDelegate.h */,
 				AD3B63C41BEBFC1C00479436 /* AppDelegate.m */,
-				AD3B63C61BEBFC1C00479436 /* ViewController.h */,
-				AD3B63C71BEBFC1C00479436 /* ViewController.m */,
+				AD3B63C61BEBFC1C00479436 /* LoginViewController.h */,
+				AD3B63C71BEBFC1C00479436 /* LoginViewController.m */,
 				AD3B63C91BEBFC1C00479436 /* Main.storyboard */,
+				AD7A82CD1BEC1E32004D054F /* MessageTableViewCell.h */,
+				AD7A82CE1BEC1E32004D054F /* MessageTableViewCell.m */,
+				AD7A82CA1BEC17FB004D054F /* ChatViewController.h */,
+				AD7A82CB1BEC17FB004D054F /* ChatViewController.m */,
 				AD3B63CC1BEBFC1C00479436 /* Assets.xcassets */,
 				AD3B63CE1BEBFC1C00479436 /* LaunchScreen.storyboard */,
 				AD3B63D11BEBFC1C00479436 /* Info.plist */,
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3B63D41BEBFC1C00479436 /* Build configuration list for PBXNativeTarget "ChatWithParse" */;
 			buildPhases = (
+				D09D31963804A61F0BB8DBAC /* Check Pods Manifest.lock */,
 				AD3B63B91BEBFC1C00479436 /* Sources */,
 				AD3B63BA1BEBFC1C00479436 /* Frameworks */,
 				AD3B63BB1BEBFC1C00479436 /* Resources */,
+				E9A9F50475AC826BB25EC9B3 /* Embed Pods Frameworks */,
+				F5127A14268FBFA1E5944300 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +182,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D09D31963804A61F0BB8DBAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A9F50475AC826BB25EC9B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatWithParse/Pods-ChatWithParse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5127A14268FBFA1E5944300 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatWithParse/Pods-ChatWithParse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD3B63B91BEBFC1C00479436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3B63C81BEBFC1C00479436 /* ViewController.m in Sources */,
+				AD3B63C81BEBFC1C00479436 /* LoginViewController.m in Sources */,
 				AD3B63C51BEBFC1C00479436 /* AppDelegate.m in Sources */,
+				AD7A82CF1BEC1E32004D054F /* MessageTableViewCell.m in Sources */,
+				AD7A82CC1BEC17FB004D054F /* ChatViewController.m in Sources */,
 				AD3B63C21BEBFC1C00479436 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +349,11 @@
 		};
 		AD3B63D51BEBFC1C00479436 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FE6579E4E08C06E1AC8D1C /* Pods-ChatWithParse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChatWithParse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.ChatWithParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,9 +362,11 @@
 		};
 		AD3B63D61BEBFC1C00479436 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B7BFB6A960AA361CDE1532 /* Pods-ChatWithParse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChatWithParse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.ChatWithParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +392,7 @@
 				AD3B63D61BEBFC1C00479436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
